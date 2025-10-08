@@ -1,0 +1,23 @@
+location,sqft,amount,bhk,facilities
+Chennai,1500,3500000,3,"Garden, Parking"
+Bangalore,2000,5000000,4,"Swimming Pool, Parking"
+Hyderabad,1800,4200000,3,"Garden, Gym"
+Chennai,1200,2800000,2,Parking
+Kochi,1600,3200000,3,"Garden, Parking"
+Mumbai,2200,8500000,4,"Gym, Parking"
+Pune,1400,3000000,2,Garden
+Delhi,2500,9500000,5,"Swimming Pool, Parking, Gym"
+Kolkata,1800,4000000,3,"Parking, Gym"
+Chennai,1300,3100000,2,Garden
+Bangalore,1900,4500000,3,"Garden, Gym"
+Hyderabad,2000,4800000,4,"Swimming Pool, Parking"
+Kochi,1700,3500000,3,"Parking, Gym"
+Mumbai,2400,9000000,4,"Garden, Swimming Pool"
+Pune,1500,3200000,3,"Gym, Parking"
+Delhi,2100,8000000,4,"Garden, Parking"
+Kolkata,1600,3700000,2,Garden
+Chennai,1800,4000000,3,"Swimming Pool, Parking"
+Bangalore,2200,5200000,4,"Gym, Parking"
+Hyderabad,1500,3300000,3,Garden
+Chennai,25,500000,3,Garden
+Chennai,4000,500000,3,Gym

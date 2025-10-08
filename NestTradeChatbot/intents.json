@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Welcome to NestTrade! Are you looking to buy or sell a house?"]
+    },
+    {
+      "tag": "buy",
+      "patterns": ["I want to buy a house", "Looking for a home", "I need a house", "Buy a house"],
+      "responses": ["Great! Which city are you looking for?"]
+    },
+    {
+      "tag": "sell",
+      "patterns": ["I want to sell", "Register my property", "Add property for sale"],
+      "responses": ["Please provide details about the house you want to sell."]
+    },
+    {
+      "tag": "show_houses",
+      "patterns": ["Show houses", "List available houses", "Find me a house"],
+      "responses": ["Please provide your requirements: city, budget, BHK, facilities."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["Contact details", "How can I contact you", "Phone number", "Email"],
+      "responses": ["You can contact NestTrade at support@nesttrade.com or call +91 9876543210."]
+    },
+    {
+      "tag": "recommend",
+      "patterns": ["Recommend houses", "Suggest similar houses", "Other options"],
+      "responses": ["Here are some recommended houses in nearby locations."]
+    }
+  ]
+}
