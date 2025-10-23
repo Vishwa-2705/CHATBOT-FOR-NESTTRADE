@@ -7,17 +7,17 @@
     },
     {
       "tag": "buy",
-      "patterns": ["I want to buy a house", "Looking for a home", "I need a house", "Buy a house"],
+      "patterns": ["I want to buy a house", "Looking for a home", "I need a house", "Buy a house", "Buy", "I want to buy"],
       "responses": ["Great! Which city are you looking for?"]
     },
     {
       "tag": "sell",
-      "patterns": ["I want to sell", "Register my property", "Add property for sale"],
+      "patterns": ["I want to sell", "Register my property", "Add property for sale", "Sell", "I want to sell my house"],
       "responses": ["Please provide details about the house you want to sell."]
     },
     {
       "tag": "show_houses",
-      "patterns": ["Show houses", "List available houses", "Find me a house"],
+      "patterns": ["Show houses", "List available houses", "Find me a house", "Available homes", "Homes for sale"],
       "responses": ["Please provide your requirements: city, budget, BHK, facilities."]
     },
     {
@@ -28,7 +28,27 @@
     {
       "tag": "recommend",
       "patterns": ["Recommend houses", "Suggest similar houses", "Other options"],
-      "responses": ["Here are some recommended houses in nearby locations."]
+      "responses": ["Here are some recommended houses in nearby locations. Type the number to select a house."]
+    },
+    {
+      "tag": "select_house",
+      "patterns": ["1", "2", "3", "4", "5"],
+      "responses": ["You selected a house. You can now ask about nearby landmarks like school, hospital, railway station."]
+    },
+    {
+      "tag": "landmarks",
+      "patterns": ["Where is the nearest school", "How far is the hospital", "Nearest railway station", "Distance to hospital", "Nearest school"],
+      "responses": ["You can ask about landmarks once you select a house. Type the number of the house first."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thx"],
+      "responses": ["You’re welcome! 😊 Hope you find your dream home."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Thank you for using NestTrade! We wish you the best in finding your dream home."]
     }
   ]
 }
